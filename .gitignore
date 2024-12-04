@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.filters
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build output
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.dll
+*.pdb
+*.idb
+*.ilk
+*.log
+*.lib
+*.tmp
+*.tlb
+*.tli
+*.cache
+*.pch
+*.res
+*.rsp
+*.o
+
+# Intermediate and output directories
+Debug/
+Release/
+x64/
+ipch/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeLists.txt.user
+
+# Windows specific
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Git
+*.log
+*.gitattributes
+*.gitignore
+
+# Other
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.iobj
+*.ipdb
